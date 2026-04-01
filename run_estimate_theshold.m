@@ -140,12 +140,12 @@ for i = 1:length(Xfit)
 end
 
 
-%Pixels Size of Prime95B at 100X (XYZ) (µm):0.11 x 0.11 x 0.20, 1608x1608
+%Pixels Size of Prime95B at 100X (XYZ) (Âµm):0.11 x 0.11 x 0.20, 1608x1608
 %pixels
 
-Zfit = Zfit*0.2; % convert to µm
-Xfit = Xfit*110/1000; %µm
-Yfit = Yfit*110/1000; %µm
+Zfit = Zfit*0.2; % convert to Âµm
+Xfit = Xfit*110/1000; %Âµm
+Yfit = Yfit*110/1000; %Âµm
 Yfit = 1608*110/1000-Yfit;
     
 figure
@@ -273,12 +273,12 @@ for i = 1:length(Xfit)
     LabelVol(ys, xs, zs) = true;
 end
 
-%Pixels Size of Prime95B at 100X (XYZ) (µm):0.11 x 0.11 x 0.20, 1608x1608
+%Pixels Size of Prime95B at 100X (XYZ) (Âµm):0.11 x 0.11 x 0.20, 1608x1608
 %pixels
 
-Zfit = Zfit*0.2; % convert to µm
-Xfit = Xfit*110/1000; %µm
-Yfit = Yfit*110/1000; %µm
+Zfit = Zfit*0.2; % convert to Âµm
+Xfit = Xfit*110/1000; %Âµm
+Yfit = Yfit*110/1000; %Âµm
 Yfit = 1608*110/1000-Yfit;
     
 figure
